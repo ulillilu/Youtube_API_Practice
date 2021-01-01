@@ -2,7 +2,7 @@ var {google} = require('googleapis');
 
 var service = google.youtube('v3');
 service.videos.list({
-    key: 'AIzaSyBrcNqL9U3Lrj4Dpw0T-1ViIpjPUJV8efw',
+    key: 'mykey',
     part: 'snippet,statistics',
     id: 'nw815XAOj5Y',
     fields: 'items(snippet(title, description, channelId),statistics(viewCount, likeCount, commentCount))'
